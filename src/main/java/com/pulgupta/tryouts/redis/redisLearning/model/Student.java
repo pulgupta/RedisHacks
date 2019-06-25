@@ -4,6 +4,11 @@ import org.springframework.data.redis.core.RedisHash;
 
 import java.io.Serializable;
 
+/**
+ * Hashes are nothing but objects in the world of redis.
+ * Other than this redis notation this is a normal POJO
+ * @author pulgupta
+ */
 @RedisHash("Student")
 public class Student implements Serializable {
 

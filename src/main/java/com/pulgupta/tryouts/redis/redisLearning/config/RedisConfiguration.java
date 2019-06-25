@@ -5,6 +5,10 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
+/**
+ * we’ll use Jedis – a simple and powerful Redis client implementation.
+ * @author pulgupta
+ */
 @Component
 public class RedisConfiguration {
 

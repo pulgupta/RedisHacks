@@ -3,7 +3,6 @@ package com.pulgupta.tryouts.redis.redisLearning.service;
 import com.pulgupta.tryouts.redis.redisLearning.model.Student;
 import com.pulgupta.tryouts.redis.redisLearning.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
